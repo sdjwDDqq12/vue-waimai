@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bank">
+        <div class="header">
+            <h2 class="bank-title">BANK</h2>
+            <h5 class="bank-total">账户余额：$100,000,007,903,257.00(要多少我打多少)</h5>
+        </div>
+        <div class="body">
+            <span class="serve">请选择一项服务。</span>
+        </div>
+        <div class="footer">
+            <button class="first">存款</button>
+            <button class="second">取款</button>
+            <button class="last">交易记录</button>
+        </div>
+    </div>
+</body>
+<style>
+    .bank {
+        .header {
+            display: flex;
+            border-bottom: 4px solid red;
+            .bank-title {
+                margin-left: 900px;
+                margin-bottom: 10px;
+                font-size: 40px;
+            }
+            .bank-total {
+                font-size: 20px;
+                font-weight: 500;
+                margin: 64px 0 0 300px
+            }
+        }
+        .body {
+            background-image: linear-gradient(red, rgb(223, 103, 103));
+            margin-top: 20px;
+            padding: 16px;
+            .serve {
+                position: relative;
+                left: 55%;
+                top: 16px;
+                padding: 10px;
+                color: white;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+        .footer {
+            .first,.second {
+                display: block;
+                padding: 10px 100px 10px 100px;
+                font-size: 17px;
+                color: white;
+                background-image: linear-gradient(red, rgb(223, 103, 103));
+                margin-top: 20px;
+                position: relative;
+                left: 53%;
+
+            }
+            .last {
+                display: block;
+                padding: 10px 82px 10px 82px;
+                font-size: 17px;
+                color: white;
+                background-image: linear-gradient(red, rgb(223, 103, 103));
+                margin-top: 20px;
+                position: relative;
+                left: 53%;
+            }
+            
+        }
+    }
+</style>
+</html>
